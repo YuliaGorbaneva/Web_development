@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Sunday";
+  src: url(./fonts/cd2f1-36d91_sunday.ttf);
+}
+:root {
+  --primary-color: rgb(215, 248, 24);
+  --secondary-color: rgb(85, 54, 223);
+  --font-family: Arial, sans-serif;
+}
+body {
+  font-family: "Sunday", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.menu {
+  font-family: var(--primary-color);
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+.menu:hover {
+  font-weight: bold;
+  font-family: var(--font-family);
+  background-color: var(--primary-color);
+}
+.menu:active {
+  font-size: x-large;   
+}
+li {
+  list-style-type: none;
+}
+li:first-child {
+  color: red;
+}
+li:nth-child(n + 2) {
+  font-style: italic;
+}
+/* @layer  link{
+    li:first-child {
+        color: red ;
+
+    }
+}
+@layer link2{
+    li:nth-child(n + 2) {
+        font-style: italic;
+      }
+} */
+.title {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.paragraf {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+.title_2 {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+.label {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.bot__ton {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.block__1 {
+  margin: 10px;
+  padding: 20px;
+}
+.block__2 {
+  margin: 20px;
+  padding: 25px;
+}
+.block__3 {
+  margin: 25px;
+  padding: 30px;
+}
+.card {
+    background-color: turquoise;
+}

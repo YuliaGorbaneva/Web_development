@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оставить заявку</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Pacifico&family=Roboto&display=swap');
+    </style>
 </head>
 <body>
-    <a href="../index.html">Главная</a>
-    <a href="../info/about.html">Обо мне</a>
-    <a href="#">Оставить заявку</a>
+    <ul class="menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../info/about.html">Обо мне</a></li>
+        <li><a href="#">Оставить заявку</a></li>
+    </ul>
 
-    <h1>Оставить заявку</h1>
+    <h1 class="title">Оставить заявку</h1>
 
     <form action="#">
-        <label for="name">Введите имя</label><br>
+        <label for="name" class="label">Введите имя</label><br>
         <input placeholder="Введите ваше имя" type="text" required><br>
-        <label for="e-mail">Ведите e-mail</label><br>
+        <label for="e-mail" class="label">Ведите e-mail</label><br>
         <input type="e-mail" placeholder="Введите адрес почты" required><br>
         <p></p>
-        <button type="submit">Отправить</button>
-        <button type="reset">Стереть форму</button>
+        <button type="submit" class="bot__ton">Отправить</button>
+        <button type="reset" class="bot__ton">Стереть форму</button>
     </form>
 
     <img src="../img/back-school-concept-cheerful-schoolboy-holding-magnifier-funny-cartoon-character_88465-2961.avif" alt="img" usemap="#map">
