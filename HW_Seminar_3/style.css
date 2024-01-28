@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./fonts/gilroy-bold.ttf);
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(./fonts/gilroy-medium.ttf);
+}
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url(./fonts/gilroy-semibold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  background: #fff;
+  width: 1920px;
+  height: 700px;
+}
+.menu__lable {
+  display: flex;
+}
+.img_logo {
+  width: 35px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 375px;
+}
+.grow {
+  font-family: Gilroy-Bold;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 14px;
+  margin-top: 45px;
+}
+.be {
+  font-family: Gilroy-Bold;
+  color: #f25822;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 45px;
+}
+.navigation {
+  display: flex;
+  gap: 40px;    
+  padding-top: 51px;
+  padding-right: 375px;
+  padding-left: 500px;
+}
+.nav__link {
+  font-family: Gilroy-Medium;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.other__text{
+    color: #fff;
+}
+.--other_color {
+  font-family: Gilroy-Semibold;
+  color: #f25822;
+}
+.text_h1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 89px;
+  padding-left: 373px;
+}
+.text_h3 {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 17px;
+  padding-left: 373px;
+}
+.btn__link {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 375px;
+  padding-top: 37px;
+}
+.btn__start {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+}
+.link__video {
+  color: #aaa;
+  padding-left: 72px;
+}
+.main__img {
+  width: 544.814px;
+  height: 374.843px;
+  margin-left: 936px;
+}
+.logo__footer {
+  display: flex;
+  gap: 48px;
+  margin-top: 97px;
+  margin-left: 345px;
+}
