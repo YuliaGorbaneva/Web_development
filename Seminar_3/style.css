@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'OpenSans';
-  src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-family: "OpenSans";
+  src: url(./fonts/OpenSans-VariableFont_wdth\wght.ttf);
 }
 * {
   margin: 0;
   padding: 0;
 }
-body{
-    background: #020A18;
+body {
+  background: #020a18;
 }
 a {
   text-decoration: none;
@@ -24,7 +24,7 @@ a {
 }
 .menu_content {
   background-color: #020a18;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
 }
 .menu__link,
 .menu__link--other {
@@ -50,10 +50,10 @@ a {
 }
 
 .sm_title h3 {
-    margin-top: 160px;
+  margin-top: 160px;
   height: 21px;
   color: #3a68b8;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -62,7 +62,7 @@ a {
   margin-top: 10px;
   width: 604px;
   color: #fff;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-size: 55px;
   font-style: normal;
   font-weight: 800;
@@ -71,23 +71,22 @@ a {
   margin-top: 40px;
   width: 558px;
   color: #fff;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
-.btn_panel_main_page{
-    display: flex;
+.btn_panel_main_page {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
 }
 .btn_panel_main_page button {
-  
   border: none;
   padding: 15px 30px;
   color: #fff;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -98,11 +97,11 @@ a {
 .img_play {
   padding-right: 10px;
 }
-.main_img{
-    margin-top: 160px;
+.main_img {
+  margin-top: 160px;
 }
 .logo_panel {
-    height: 59px;
+  height: 59px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
