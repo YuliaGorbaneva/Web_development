@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   src: url(./fonts/gilroy-bold.ttf);
 }
 * {
@@ -22,47 +22,47 @@ body {
   align-items: center;
   height: 40px;
   margin-left: 375px;
+  margin-top: 40px;
 }
-  
+
 .img_logo {
   width: 35px;
   height: 40px;
-  margin-top: 40px;
-  margin-left: 375px;
 }
 .grow {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   color: #000;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   padding-left: 14px;
-  margin-top: 45px;
 }
 .be {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   color: #f25822;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  margin-top: 45px;
 }
 .navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  padding-top: 51px;
-  padding-left: 500px; 
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-left: 500px;
+  height: 14px;
 }
 .nav__link {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   color: #000;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
 .--other_color {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   color: #f25822;
 }
 .main__content {
@@ -74,35 +74,31 @@ body {
   gap: 39px;
   align-items: center;
   margin-left: 375px;
+  margin-top: 84px;
 }
 .text_h4 {
   width: 522px;
   color: #000;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  margin-top: 84px;
-  margin-left: 373px;
-
 }
 .text_h6 {
   width: 475px;
   color: #888;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  padding-top: 17px;
-  padding-left: 375px;
+  margin-top: 17px;
 }
 .btn__link {
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  padding-left: 375px;
-  padding-top: 37px;
+  margin-top: 37px;
 }
 .btn__start {
   width: 140px;
@@ -111,8 +107,8 @@ body {
   border-radius: 50px;
   background: #f25822;
 }
-.btn__start__link{
-  font-family: 'Gilroy-Bold';
+.btn__start__link {
+  font-family: "Gilroy-Bold";
   color: #fff;
 }
 .link__video {
@@ -128,10 +124,9 @@ body {
   display: flex;
   gap: 48px;
   margin-top: 97px;
-  margin-left: 145px;
-  justify-content: center;
-  align-content: center;
+  margin-left: 375px;
+  justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
+  align-content: center;
 }
-
