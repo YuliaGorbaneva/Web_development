@@ -12,7 +12,7 @@ body {
 a {
   text-decoration: none;
 }
-.menu {
+.navigation {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -22,12 +22,9 @@ a {
   height: 100px;
   background-color: #0a111f;
 }
-.menu_content {
+.navigation .menu__link .nav__link {
   background-color: #020a18;
   font-family: "OpenSans";
-}
-.menu__link,
-.menu__link--other {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -41,17 +38,11 @@ a {
   align-content: center;
   justify-content: center;
   gap: 128px;
-}
-.text_info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
+  margin: 0 auto;
+  padding-top: 160px;
 }
 
 .sm_title h3 {
-  margin-top: 160px;
-  height: 21px;
   color: #3a68b8;
   font-family: "OpenSans";
   font-size: 18px;
@@ -59,7 +50,7 @@ a {
   font-weight: 600;
 }
 .main_title h1 {
-  margin-top: 10px;
+  padding-top: 10px;
   width: 604px;
   color: #fff;
   font-family: "OpenSans";
@@ -67,8 +58,8 @@ a {
   font-style: normal;
   font-weight: 800;
 }
-.text_main_page {
-  margin-top: 40px;
+.text_main_page p {
+  padding-top: 40px;
   width: 558px;
   color: #fff;
   font-family: "OpenSans";
@@ -81,24 +72,24 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  padding-top: 50px;
 }
-.btn_panel_main_page button {
+.btn_panel_main_page .btn  {
   border: none;
   padding: 15px 30px;
-  color: #fff;
+ 
   font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   border-radius: 5px;
   background: #3a68b8;
-  margin-top: 50px;
+}
+.btn_panel_main_page .btn a{
+  color: #fff;  
 }
 .img_play {
   padding-right: 10px;
-}
-.main_img {
-  margin-top: 160px;
 }
 .logo_panel {
   height: 59px;
@@ -108,5 +99,6 @@ a {
   align-content: center;
   justify-content: center;
   gap: 71px;
-  margin-top: 212px;
+  padding-top: 212px;
+  margin: 0 auto;
 }

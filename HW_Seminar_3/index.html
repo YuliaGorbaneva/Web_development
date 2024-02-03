@@ -8,22 +8,31 @@
   </head>
   <body>
     <div class="content">
-      <header class="header">
-        <div class="menu__lable">
-          <img class="img_logo" src="./img/logo_growbe.svg" alt="GrowBe" />
-          <span class="grow">Grow</span><span class="be">Be</span>
+      <header>
+        <div class="menu_logo">
+          <div class="logo">
+            <img class="img_logo" src="./img/logo_growbe.svg" alt="GrowBe" />
+            <span class="grow">Grow</span><span class="be">Be</span>
+          </div>
           <nav class="navigation">
-            <a class="nav__link --other_color" href="#">Home</a>
-            <a class="nav__link" href="#">About us</a>
-            <a class="nav__link" href="#">Services</a>
-            <a class="nav__link" href="#">Features &blacktriangledown;</a>
-            <a class="nav__link" href="#">Team</a>
-            <a class="nav__link" href="#">Blog</a>
-            <a class="nav__link" href="#">Contact</a>
+            <div class="nav__link --other_color"><a href="#">Home</a></div>
+            <div class="nav__link"><a href="#">AboutUs</a></div>
+            <div class="nav__link"><a href="#">Services</a></div>
+            <div class="nav__link">
+              <a href="#">Features &blacktriangledown;</a>
+            </div>
+            <div class="nav__link"><a href="#">Team</a></div>
+            <div class="nav__link"><a href="#">Blog</a></div>
+            <div class="nav__link"><a href="#">Contact</a></div>
+            <div class="btn__link --get_started">
+              <button class="btn__start">
+                <a class="btn__start__link" href="#">Get Started</a>
+              </button>
+            </div>
           </nav>
         </div>
       </header>
-      <main class="main">
+      <main>
         <div class="main__content">
           <div class="main__text">
             <div class="text_h4">
@@ -39,16 +48,21 @@
               <button class="btn__start">
                 <a class="btn__start__link" href="#">Start Now</a>
               </button>
-              <a class="link__video" href="#">Watch Video</a>
+              <button class="btn__video">
+                <img
+                  class="img_btn_link_video"
+                  src="./img/wathch_video.svg"
+                  alt="wathch_video"
+                />
+                <a class="link__video" href="#">Watch Video</a>
+              </button>
             </div>
           </div>
           <div class="main__img">
             <img src="./img/img_main.svg" alt="img_main" />
           </div>
         </div>
-      </main>
-      <footer class="footer">
-        <div class="logo__footer">
+        <div class="logo__brand">
           <a class="logo__link" href="#"
             ><img src="./img/logo1.svg" alt="logo_1"
           /></a>
@@ -68,7 +82,190 @@
             ><img src="./img/logo6.svg" alt="logo_6"
           /></a>
         </div>
-      </footer>
+        <div class="about_us">
+          <div class="about_us_text">
+            <div class="text_h5">
+              <h4>Perfect Solution For Your Business</h4>
+            </div>
+            <div class="about_us__p">
+              <p>
+                Distinctively exploit optimal alignments for intuitive
+                bandwidth. Quickly coordinate e-business applications through
+                revolutionary catalysts for chang the Seamlessly underwhelm
+                optimal testing procedures.
+              </p>
+            </div>
+            <div class="btn__link --learn">
+              <button class="btn__start">
+                <a class="btn__start__link" href="#">Learn More</a>
+              </button>
+            </div>
+          </div>
+          <div class="img_about_us">
+            <img src="./img/diagram_top.svg" alt="diagram_top" />
+          </div>
+        </div>
+        <div class="features">
+          <div class="grow_your">
+            <div class="features_img">
+              <img src="./img/arrow.svg" alt="arrow" />
+            </div>
+            <div class="title_features">
+              <h5>Grow Your Business</h5>
+            </div>
+            <div class="text_features">
+              <p>
+                Leverage agile frameworks to provide a robust synopsis for high
+                level overviews.
+              </p>
+            </div>
+            <div class="link_features"><a href="#">Read More...</a></div>
+          </div>
+
+          <div class="get_quality">
+            <div class="features_img">
+              <img src="./img/flash.svg" alt="flash" />
+            </div>
+            <div class="title_features">
+              <h5>Get Quality Ieads</h5>
+            </div>
+            <div class="text_features">
+              <p>
+                Leverage agile frameworks to provide a robust synopsis for high
+                level overviews.
+              </p>
+            </div>
+            <div class="link_features"><a href="#">Read More...</a></div>
+          </div>
+
+          <div class="drive">
+            <div class="features_img">
+              <img src="./img/stick.svg" alt="stick" />
+            </div>
+            <div class="title_features">
+              <h5>Drive More Sales</h5>
+            </div>
+            <div class="text_features">
+              <p>
+                Leverage agile frameworks to provide a robust synopsis for high
+                level overviews.
+              </p>
+            </div>
+            <div class="link_features"><a href="#">Read More...</a></div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="services_h4"><h4>Why You Should Choose Us.</h4></div>
+          <div class="services_text">
+            <p>
+              Distinctively exploit optimal alignments for intuitive bandwidth.
+              Quickly coordinate e-business applications through revolutionary
+              catalysts.
+            </p>
+          </div>
+          <div class="services_info">
+            <div class="services_info folder">
+              <img src="./img/serv_folder.svg" alt="serv_folder" />
+              <div class="services_info_h5"><h5>Keyword Research</h5></div>
+              <div class="services_info_text">
+                <p>
+                  Business applications through revolutionary catalysts for
+                  chang the Seamlessly underwhelm dures.
+                </p>
+              </div>
+              <div class="btn__link">
+                <button class="btn__start">
+                  <a class="btn__start__link" href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="services_info cube">
+              <img src="./img/serv_cube.svg" alt="serv_cube" />
+              <div class="services_info_h5"><h5>Seo Optimazadion</h5></div>
+              <div class="services_info_text">
+                <p>
+                  Business applications through revolutionary catalysts for
+                  chang the Seamlessly underwhelm dures.
+                </p>
+              </div>
+              <div class="btn__link">
+                <button class="btn__start">
+                  <a class="btn__start__link" href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="services_info ofice">
+              <img src="./img/serv_ofice.svg" alt="serv_ofice" />
+              <div class="services_info_h5"><h5>Social Marketing</h5></div>
+              <div class="services_info_text">
+                <p>
+                  Business applications through revolutionary catalysts for
+                  chang the Seamlessly underwhelm dures.
+                </p>
+              </div>
+              <div class="btn__link">
+                <button class="btn__start">
+                  <a class="btn__start__link" href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="what_we_do">
+          <div class="img_what_we_do">
+            <img src="./img/img_what_we_do.svg" alt="what_we_do" />
+          </div>
+          <div class="what_we_do_text">
+            <div class="wwd_h4">
+              <h4>You may ask what <br />SEO & why do you need it?</h4>
+            </div>
+            <div class="wwd_text">
+              <p>
+                Distinctively exploit optimal alignments for intuitive
+                bandwidth. Quickly <br />coordinate e-business applications
+                through revolutionary.
+              </p>
+            </div>
+            <div class="wwd_icon">
+              <div><img src="./img/globus.svg" alt="" /></div>
+              <div class="wwd_blok_main">
+                <div class="wwd_icon_h5"><h5>Social Media Marketing</h5></div>
+                <div class="wwd_icon_p">
+                  <p>
+                    Business applications through revolutionary catalysts for
+                    chang the Seamlessly underwhelm dures.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="wwd_icon border">
+              <div><img src="./img/cover.svg" alt="" /></div>
+              <div class="wwd_blok_main">
+                <div class="wwd_icon_h5"><h5>Email Marketing</h5></div>
+                <div class="wwd_icon_p">
+                  <p>
+                    Business applications through revolutionary catalysts for
+                    chang the Seamlessly underwhelm dures.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="wwd_icon">
+              <div><img src="./img/time.svg" alt="" /></div>
+              <div class="wwd_blok_main">
+                <div class="wwd_icon_h5"><h5>SEO Optimization</h5></div>
+                <div class="wwd_icon_p">
+                  <p>
+                    Business applications through revolutionary catalysts for
+                    chang the Seamlessly underwhelm dures.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
     </div>
   </body>
 </html>
